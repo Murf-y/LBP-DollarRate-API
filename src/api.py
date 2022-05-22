@@ -5,7 +5,7 @@ and then it returns the data in a json format
 """
 
 from flask import Flask, jsonify
-from scrapper import get_dollar_rate
+from src.scrapper import get_dollar_rate
 
 
 app = Flask(__name__)
