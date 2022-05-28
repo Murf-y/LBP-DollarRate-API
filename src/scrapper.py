@@ -1,10 +1,3 @@
-"""
-Scrab information from https://lbprate.com/
-specifically the elements that have the class:
-    col-md-4
-
-"""
-
 import aiohttp
 from bs4 import BeautifulSoup
 async def get_info_from(url):
