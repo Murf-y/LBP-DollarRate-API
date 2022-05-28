@@ -13,7 +13,7 @@ Send a ```GET``` request to the following URL to get the current dollar rate:
 
 
 ```
-https://dollarrateapi.murfyy.repl.co/api/v1/DollarRate
+https://LBP-DollarRate-API.murfyy.repl.co/api/v1/dollarRate
 ```
 The format of the response is JSON, as follows:
 
@@ -24,7 +24,7 @@ The format of the response is JSON, as follows:
 }
 ```
 
-Currently their is only one endpoint ```/api/v1/DollarRate```, but there will be more in the future, for sayrfa rate and other currencies.
+Currently their is only one endpoint ```/api/v1/dollarRate```, but there will be more in the future, for sayrfa rate and other currencies.
 
 <br>
 <br>
