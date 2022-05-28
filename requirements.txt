@@ -14,6 +14,7 @@ discord.py==1.6.0
 et-xmlfile==1.1.0
 executing==0.8.0
 Flask==2.1.2
+gevent==21.12.0
 html5lib==1.1
 idna==3.2
 importlib-metadata==4.11.4    
