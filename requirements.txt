@@ -1,1 +1,3 @@
 fastapi[all]
+bs4
+aiohttp
