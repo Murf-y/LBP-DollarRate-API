@@ -1,6 +1,6 @@
 # Dollar Rate API 📈
 A FASTAPI that returns the current ```unofficial``` dollar rate from the black market.
-It uses [FASTAPI](https://fastapi.tiangolo.com/) server hosted on [repl.it](https://repl.it/languages/python3).
+It uses [FASTAPI](https://fastapi.tiangolo.com/) server hosted on [render](https://render.com).
 
 <br>
 <br>
@@ -13,7 +13,7 @@ Send a ```GET``` request to the following URL to get the current dollar rate:
 
 
 ```
-https://LBP-DollarRate-API.murfyy.repl.co/api/v1/dollarRate
+https://rate.onrender.com/api/v1/dollarRate
 ```
 The format of the response is JSON, as follows:
 
