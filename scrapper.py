@@ -2,9 +2,7 @@ import aiohttp
 from bs4 import BeautifulSoup
 async def get_info_from(url):
     # Get the page, add header to avoid 403 error, await the request
-
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
-    async with aiohttp.ClientSession(headers=headers) as session:
+    async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             html = await response.text()
         
