@@ -1,6 +1,6 @@
 # Dollar Rate API 📈
-A Flask API that returns the current ```unofficial``` dollar rate from the black market.
-It runs on a [Flask](https://flask.palletsprojects.com/en/1.1.x/) server hosted on [repl.it](https://repl.it/languages/python3).
+A FASTAPI that returns the current ```unofficial``` dollar rate from the black market.
+It uses [FASTAPI](https://fastapi.tiangolo.com/) server hosted on [repl.it](https://repl.it/languages/python3).
 
 <br>
 <br>
@@ -43,9 +43,9 @@ For the Packages:
 ``` 
 pip install -r requirements.txt
 ```
-To run the flask server:
+To run the server:
 ```
-python3 api.py
+uvicorn main:app
 ```
 
 <br>
