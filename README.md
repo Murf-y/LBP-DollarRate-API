@@ -12,7 +12,7 @@ Send a ```GET``` request to the following URL to get the current dollar rate:
 
 
 
-<a>
+<a href="https://rate.onrender.com/api/v1/dollarRate">
 https://rate.onrender.com/api/v1/dollarRate
 </a>
 
