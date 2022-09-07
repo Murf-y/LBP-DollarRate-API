@@ -15,6 +15,8 @@ Send a ```GET``` request to the following URL to get the current dollar rate:
 <a>
 https://rate.onrender.com/api/v1/dollarRate
 </a>
+
+<br>
 The format of the response is JSON, as follows:
 
 ```
